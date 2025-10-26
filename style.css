@@ -1,0 +1,233 @@
+/*
+Theme Name: Portx
+Theme URI: http://example.com/portx
+Author: saurav ghosh
+Author URI: https://sauravghoshweb.com
+Description: Custom theme for Portx.
+Version: 1.0.0
+Text Domain: portx
+*/
+
+@media (min-width: 768px) {
+  .tp-footer__copyright {
+    text-align: start !important;
+  }
+
+  .tp-footer__menu {
+    text-align: end !important;
+  }
+}
+
+.menu-footer-menu-container ul li {
+  margin-bottom: 13px !important;
+}
+
+.menu-footer-menu-container ul li a {
+  color: rgba(245, 245, 250, 0.6) !important;
+}
+
+.menu-footer-menu-container ul li a:hover {
+  color: #ffbf42 !important;
+  margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+  .tp-cta-title-2 {
+    text-align: left !important;
+  }
+}
+
+#portx_latest_posts-2,
+#tag_cloud-2 {
+  background: var(--tp-grey-1);
+  padding: 47px 50px;
+}
+
+.tagcloud a {
+  font-size: 14px !important;
+}
+
+/* Custom CSS for nested comments */
+.comment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-list li {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Only parent comments get horizontal separator lines */
+.comment-list > li {
+  border-bottom: 1px solid #eee !important;
+}
+
+.comment-list > li:last-child {
+  border-bottom: none;
+}
+
+/* Nested comment styling - only left margin, no borders */
+.comment-list li.depth-1 {
+  margin-left: 40px;
+  border-bottom: none;
+}
+
+.comment-list li.depth-2 {
+  margin-left: 80px;
+  border-bottom: none;
+}
+
+.comment-list li.depth-3 {
+  margin-left: 120px;
+  border-bottom: none;
+}
+
+.reply-indicator {
+  font-size: 12px;
+  color: #666;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+/* Remove extra borders from nested comments */
+.comment-list li ul {
+  margin: 0;
+  padding: 0;
+}
+
+.comment-list li ul li {
+  border-bottom: none;
+  margin-bottom: 15px;
+}
+
+.comment-list li ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.postbox__comment ul li {
+  padding-bottom: 25px !important;
+}
+
+.postbox-details-author .author-role {
+  color: #fff;
+}
+
+.postbox__comment-avater img {
+  border-radius: 50%;
+}
+
+.postbox__comment-reply a {
+  color: #ca1f26;
+}
+
+.postbox__comment-title {
+  margin-bottom: 50px;
+}
+
+.tp-slider__nav {
+  text-align: end !important;
+}
+
+.video-area {
+  height: 400px !important;
+}
+
+.product-add-cart-btn.added {
+  display: none;
+}
+
+.added_to_cart {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--tp-common-white);
+  background-color: var(--tp-common-black);
+  display: inline-block;
+  padding: 7px 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.added_to_cart:hover {
+  color: var(--tp-common-black);
+  background-color: var(--tp-theme-1);
+}
+
+.tp-product-details-nav-main-thumb img {
+  width: 100%;
+}
+
+.tp-product-details-query-item p {
+  margin-bottom: 0 !important;
+  margin-left: 5px !important;
+}
+
+.woocommerce-product-attributes.shop_attributes tr:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+.woocommerce-product-attributes.shop_attributes tr {
+  padding: 15px !important;
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.woocommerce-product-attributes.shop_attributes tr p {
+  margin-bottom: 0 !important;
+}
+
+.woocommerce-product-attributes.shop_attributes tr td {
+  font-size: 18px !important;
+}
+
+.woocommerce-product-attributes.shop_attributes tr th {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  width: 30%;
+}
+
+.product__details-info table {
+  width: 100% !important;
+}
+
+.rating-stars .stars {
+  display: none !important;
+}
+
+.product__rating span {
+  width: auto !important;
+}
+
+.tp-shop-details__ratting {
+  display: flex;
+  gap: 5px;
+}
+
+.tp-shop-details__ratting span {
+  color: #ca1f26;
+}
+
+.comments-avatar img {
+  border-radius: 50%;
+}
+
+.comments-text {
+  width: 100%;
+}
+
+.stars-only .star {
+  color: #ffc107;
+  font-size: 14px;
+  margin-right: 2px;
+}
+.stars-only .star.empty {
+  color: #ddd;
+}
+.stars-only .star.half {
+  color: #ffc107;
+}
+
+.product-details-comment {
+  padding-bottom: 0 !important;
+}
