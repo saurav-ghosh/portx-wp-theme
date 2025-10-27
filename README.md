@@ -19,7 +19,7 @@ A modern, minimal, and fully responsive WordPress theme built for Port Transport
 - Gutenberg & Elementor compatibility
 
 ## 📷 Preview
-![Screenshot](theme/screenshot.png)
+[http://portx.sauravghoshweb.com/]
 
 ## 📄 License
 MIT License
